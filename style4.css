@@ -1,0 +1,33 @@
+body{
+    height: 100vh;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/052/749/235/non_2x/birthday-cake-with-pink-balloons-confetti-and-cupcakes-free-photo.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.card{
+    background-image: url(https://media.tenor.com/YuWtqDhYOeoAAAAi/happy-birthday-birthday.gif);
+    /* height: 400px; */
+    height: 50vh;
+    width: 80vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    box-shadow: 0 0 30px whitesmoke;
+    border-radius: 20px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.end{
+    font-size: 1.3rem;
+    font-style: italic;
+    position: relative;
+    text-shadow: 0 0 10px rgb(111, 102, 83);
+    top: 100px
+}

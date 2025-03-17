@@ -104,15 +104,15 @@ a:hover{
     top: 0;
 }
 
-@media screen and (max-width:320px) {
-    .box1 h3{
-        font-size: 1.5rem;
-    }
-    
-}
 @media screen and (max-width:551px) {
     .box1 h3{
         font-size: 1.7rem;
+    }
+    
+}
+@media screen and (max-width:320px) {
+    .box1 h3{
+        font-size: 1.5rem;
     }
     
 }

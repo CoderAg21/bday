@@ -1,22 +1,51 @@
-body{
-    background-image: linear-gradient(rgb(252, 228, 232),rgb(247, 180, 191));
+body {
+    background-color: rgb(57, 39, 42);
     height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(bg.gif);
+    background-image: url(https://img.freepik.com/premium-photo/whimsical-birthday-cake-with-lit-candles-colorful-sprinkles-against-soft-pink-background_1293074-87823.jpg);
 }
 
-.content{
+.content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
     height: 70vh;
 }
-.cake{
+
+.bg {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    background: black;
+    opacity: .1;
+    z-index: -1;
+
+}
+
+.cake {
     background-image: url(cake.png);
     height: 40vh;
     width: 40vh;
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
+    border-radius: 50%;
+    box-shadow: 2px 0 52px antiquewhite;
+    padding: 40px;
+}
+.bday{
+    position: absolute;
+  width: 103vw;
+  height: 35vh;
+  background-size: cover;
+  background-position: center center;
+  top: -51px;
+
 }
 
 .box a {
@@ -29,35 +58,38 @@ body{
     animation-name: next;
     animation-duration: 1s;
     animation-iteration-count: 1;
-    animation-delay: 3s;
+    animation-delay: 1.5s;
     animation-fill-mode: forwards;
     animation-direction: forwards;
     font-style: italic;
     color: whitesmoke;
+    position: relative;
+    top: 50px;
     box-shadow: 0px 0px 28px rgb(246, 106, 192);
     background: #ff8787;
     border-radius: 7px;
     /* transition-property: transform; */
-  }
-  .box a:hover{
-      background-color: rgb(162, 92, 0);
-    
-    
-    
-  }
-  
-  @keyframes next {
-      to{
-         opacity: 1;
-      }
-  }
+}
 
-.candle{
+.box a:hover {
+    background-color: rgb(162, 92, 0);
+
+
+
+}
+
+@keyframes next {
+    to {
+        opacity: 1;
+    }
+}
+
+.candle {
     height: 10vh;
     width: 20vh;
     position: relative;
-    top: 100px;
-    right: 1px;
+    top: 65px;
+    right: 2px;
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
