@@ -95,3 +95,10 @@ body {
     background-repeat: no-repeat;
     background-image: url(candle.png);
 }
+
+@media screen and (min-height:650px) {
+    .candle{
+        top: 80px;
+    }
+    
+}

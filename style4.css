@@ -23,11 +23,19 @@ body{
     align-items: center;
 
 }
+.sparkle{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    opacity: .3;
+}
 
 .end{
     font-size: 1.3rem;
     font-style: italic;
     position: relative;
     text-shadow: 0 0 10px rgb(111, 102, 83);
-    top: 100px
+    top: 100px;
+    text-decoration: underline;
+
 }
