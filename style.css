@@ -32,9 +32,10 @@ body{
 
 
 }
-@media screen and (max-width:280px) {
+@media screen and (max-width:332px) {
     .box1{
         font-size: .7rem;
+        font-weight: bold;
     }
     
 }
