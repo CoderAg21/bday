@@ -17,7 +17,7 @@ body{
     margin-top: 100px;
 }
 .box1 h3{
-    
+    text-shadow: 0 0 10px wheat;
     font-size: 3rem;
     padding: 10px;
     overflow-x: hidden;
@@ -106,7 +106,7 @@ a:hover{
 
 @media screen and (max-width:551px) {
     .box1 h3{
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
     
 }
@@ -136,8 +136,10 @@ a:hover{
     opacity: 1;
     animation-iteration-count: 1;
     animation-delay: 0s;
+    /* z-index: 22; */
     animation-fill-mode: forwards;
     animation-direction: forwards;
+    opacity: 0;
   }
 
   @keyframes fireworks {
